@@ -1,0 +1,7 @@
+venv
+.venv
+__pycache__
+routers/__pycache__
+db/__pycache__
+config/__pycache__
+controllers/__pycache__
