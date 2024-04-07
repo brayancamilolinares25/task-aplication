@@ -1,29 +1,19 @@
-# Task server
+# Auth
 
 tools
 
-[![tools](https://skillicons.dev/icons?i=py,fastapi)]()
+[![tools](https://skillicons.dev/icons?i=spring)]()
 
 
 # installation
-you have to has python and pip with mariadb, and type this in your terminal
+you have to install in your pc jdk 17 and run this command on your terminal
 ```bash
-pip freeze -r requirements.txt
+./gradlew bootRun
 ```
 
 # run server
-you have to create a .env file with password for your mariadb
 ```bash
-USER_DB=root
-PASSWORD_DB=your_password
-HOST_DB=localhost
-PORT_DB=3306
-DATABASE=your_name_db
-```
-
-and now, you can try to the run server
-```bash
-uvicorn main:app --reload
+./gradlew bootRun
 ```
 
 you can visit the page http://localhost:8000/
@@ -33,13 +23,11 @@ You only need to document three lines for each function.(optional)
 
 # Struct
 
-- `router/*` : Handles the incoming requests and directs them to the appropriate controller.
+- `repositories/*` : Contains the database logic.
 
 - `controller/*` : Contains the logic to handle the incoming requests, interact with the model to retrieve or update data, and then pass that data to the database
 
 - `modeles/*` : Contains the data structures and logic representing the application's data. It interacts with the database (if any) and performs CRUD (Create, Read, Update, Delete) operations.
-
-- `db/db.py` : Contains the connect for database config.
 
 
 # Thank you for reading

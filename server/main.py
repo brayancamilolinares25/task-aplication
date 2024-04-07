@@ -6,4 +6,3 @@ app = FastAPI()
 def main():
     return "task aplication"
 
-print ("Hello word")
