@@ -21,17 +21,19 @@ you can visit the page http://localhost:8000/
 # documentation
 you only document styles, contexts and functions
 
-type/* : interface of the objects.
+- `type/*` : interface of the objects.
 
-router/* : routers of the application that contains the page.
+- `router/*` : routers of the application that contains the page.
 
-component/* : component of the application.
+- `component/*` : component of the application.
 
-context/* : functions share for the components.
+- `context/*` : functions share for the components.
 
-hooks/* : the "useHooks" for all application.
+- `hooks/*` : the "useHooks" for all application.
 
-page/* : the pages for the application
+- `page/*` : the pages for the application
+
+- `api/*`: REST API endpoints.
 
 # Thanks you for reading
 - for [@Corro-Kun](https://github.com/Corro-Kun)
