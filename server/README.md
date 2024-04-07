@@ -6,7 +6,7 @@ tools
 
 
 # installation
-you have to python and pip with mariadb, and type this in your terminal
+you have to has python and pip with mariadb, and type this in your terminal
 ```bash
 pip freeze -r requirements.txt
 ```
