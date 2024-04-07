@@ -24,5 +24,16 @@ git push origin feature/your-feature-name
 ```
 6. Open a pull request (PR) to the `main` branch of the original repository. Be sure
 
+## Issues and Discussions
+
+If you encounter any bugs, have suggestions for new features, or want to discuss improvements, please open an issue in the repository. We encourage active participation and feedback from the community.
+
+## License
+
+By contributing to this project, you agree that your contributions will be licensed under the project's [MIT License](LICENSE).
+
+Thank you for contributing to the Task Application project!
+
+
 # Thank you for reading
 - for [@Corro-Kun](https://github.com/Corro-Kun)
